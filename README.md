@@ -6,7 +6,7 @@
 On an Arch-based distribution as root, run the following:
 
 ```
-curl -LO larbs.xyz/larbs.sh
+curl -LO https://raw.githubusercontent.com/taliskerdoe/LARBS/master/larbs.sh
 sh larbs.sh
 ```
 
@@ -17,13 +17,17 @@ That's it.
 LARBS is a script that autoinstalls and autoconfigures a fully-functioning
 and minimal terminal-and-vim-based Arch Linux environment.
 
+This repo is forked to match my personal needs, therefore only minor
+modifcations where made. For the OG version, go to
+[the original scripts here](https://github.com/LukeSmithxyz/LARBS),
+
 LARBS can be run on a fresh install of Arch or Artix Linux, and provides you
 with a fully configured diving-board for work or more customization.
 
 ## Customization
 
 By default, LARBS uses the programs [here in progs.csv](progs.csv) and installs
-[my dotfiles repo (voidrice) here](https://github.com/lukesmithxyz/voidrice),
+[my copy of Luke's dotfiles repo (voidrice) here](https://github.com/taliskerdoe/voidrice),
 but you can easily change this by either modifying the default variables at the
 beginning of the script or giving the script one of these options:
 
